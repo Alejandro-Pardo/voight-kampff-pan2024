@@ -1,0 +1,11 @@
+transformers
+sentence_transformers==3.3.1
+numpy<2
+pyleetspeak==0.0.15
+jupyter
+ipykernel
+ollama
+datasets
+torch
+scikit-learn
+pandas

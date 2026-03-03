@@ -1,0 +1,15 @@
+1. MarSan at PAN: BinocularsLLM, Fusing Binoculars’ Insight
+with the Proficiency of Large Language Models for
+Machine-Generated Text Detection (https://github.com/Ehsan-Tavan/Generative-AI-Authorship-Verification?tab=readme-ov-file) (Binoculars + LLM)
+
+2. Generative AI Authorship Verification Of Tri-Sentence
+Analysis Base On The Bert Model (TSA+BERT)
+
+3. BaselineAvengers at PAN 2024: Often-Forgotten Baselines
+for LLM-Generated Text Detection (SVM)
+
+4. A Machine-Generated Text Detection Model Based on Text
+Multi-Feature Fusion (LTSM)
+
+5. paper-relabelling: muy interesante de usar para anotar a nivel de oracion.
+
