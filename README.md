@@ -20,7 +20,7 @@ Our pipeline consists of three stages:
 ### 2. Contrastive Learning on Sentence Embeddings
 - We fine-tune **Alibaba-NLP/gte-base-en-v1.5** using **triplet loss** (contrastive learning), training the model to pull human text embeddings closer together and push AI-generated text embeddings apart.
 - Only the last 2 of 12 transformer layers are unfrozen during training.
-- Models were trained for 3, 10, and 20 epochs on [Kaggle](https://www.kaggle.com/code/alejandroparbas/transformer).
+- Models were trained for 3, 10, and 20 epochs on [Kaggle](https://www.kaggle.com/).
 
 ### 3. SVM Classification with Calibrated Probabilities
 - A **Linear SVM** is trained on the fine-tuned embeddings to classify individual chunks as human or AI.
@@ -55,8 +55,8 @@ We also validated robustness on external data from [Kaggle AI vs Human Text](htt
 
 ## Pretrained Models
 
-- **Embedding Model (fine-tuned sentence transformer):** [Alejandro-Pardo/voight-kampff-pan2024-gte-en-v1.5](https://huggingface.co/Alejandro-Pardo/voight-kampff-pan2024-gte-en-v1.5)
-- **SVM Classifier (calibrated LinearSVC):** [Alejandro-Pardo/voight-kampff-pan2024-classifier](https://huggingface.co/Alejandro-Pardo/voight-kampff-pan2024-classifier)
+- **Embedding Model (fine-tuned sentence transformer):** [Alejandro-Pardo/voight-kampff-pan2024-gte-en-v1.5](https://huggingface.co/alejandroparbas/voight-kampff-pan2024-gte-en-v1.5)
+- **SVM Classifier (calibrated LinearSVC):** [Alejandro-Pardo/voight-kampff-pan2024-classifier](https://huggingface.co/alejandroparbas/voight-kampff-pan2024-classifier)
 
 ## Project Structure
 
